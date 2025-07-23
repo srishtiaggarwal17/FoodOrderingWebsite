@@ -1,14 +1,15 @@
 import { useState } from "react";
 import { Link} from "react-router-dom";
-import { LOGO } from "../utils/constants";
 import Darkmode from "./Darkmode";
+import logoblack from "../assets/logob1.png"
+import logowhite from "../assets/logow.png"
 
 const Header=()=>{
     const [darkmodetoogle,setdarkmodetoogle]= useState(false);
     return (
         <div className="header-container  dark:tw-bg-[#832a2afa]">
           <div className="logo ">
-            <img src={darkmodetoogle?"https://i.postimg.cc/tR86fW24/yummy-high-resolution-logo-white-transparent.png":LOGO} alt="logo" />
+            <img className="tw-w-48 tw-h-39 tw-object-contain" src={darkmodetoogle?logowhite:logoblack} alt="logo" />
           </div>
           <div className="">
             <ul className="nav-items ">
