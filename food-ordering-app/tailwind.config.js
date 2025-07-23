@@ -9,7 +9,7 @@ export default {
     
     extend: {
       backgroundImage: {
-        'hero': "url('https://media.cntraveler.com/photos/61e886f19580ae68b5219023/master/pass/Oji%20Seichi%20Toronto_Oji%20Food-Food%20Spread_Roberto%20Caruso.jpg')",
+        'hero': "url('https://assets.cntraveller.in/photos/67ef8c553dcdf54c198920ba/master/w_1024%2Cc_limit/Lead%2520option%25201.jpg')",
         'hero2':"url('https://wallpapers.com/images/featured/food-photography-background-iyvy1e8yztvry3g8.jpg')"
       }
     },
